@@ -1,0 +1,85 @@
+{
+  "editor.fontSize": 16,
+  "editor.rulers": [{"column": 120, "color": "#565656"}],
+  "editor.wordWrap": "on",
+  "window.autoDetectColorScheme": false,
+
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
+
+  "editor.tokenColorCustomizations": {
+    "[Tokyo Night]": { // or "[Tokyo Night Storm]"
+        "textMateRules": [{
+            "scope": [
+                "comment",
+                "meta.var.expr storage.type",
+                "keyword.control.flow",
+                "keyword.control.return",
+                "meta.directive.vue punctuation.separator.key-value.html",
+                "meta.directive.vue entity.other.attribute-name.html",
+                "tag.decorator.js entity.name.tag.js",
+                "tag.decorator.js punctuation.definition.tag.js",
+                "storage.modifier"
+            ],
+            "settings": {
+                "fontStyle": ""
+            }
+        }]
+    }
+},
+  "workbench.colorCustomizations": {
+    "[Tokyo Night]": {
+        "foreground": "#959cbd",
+        "panelTitle.activeBorder": "#3d59a1",
+        "panelTitle.activeForeground": "#bdc7f0",
+        "panelTitle.inactiveForeground": "#959cbd",
+        "tab.activeForeground": "#bdc7f0",
+        "tab.inactiveForeground": "#959cbd",
+        "breadcrumb.foreground": "#959cbd",
+        "breadcrumb.focusForeground": "#bdc7f0",
+        "breadcrumb.activeSelectionForeground": "#bdc7f0",
+        "statusBar.foreground": "#bdc7f0",
+        "list.focusForeground": "#bdc7f0",
+        "list.hoverForeground": "#bdc7f0",
+        "list.activeSelectionForeground": "#bdc7f0",
+        "list.inactiveSelectionForeground": "#bdc7f0",
+        "list.inactiveSelectionBackground": "#202330",
+        "sideBar.foreground": "#959cbd",
+        "dropdown.foreground": "#959cbd",
+        "menu.foreground":"#bdc7f0",
+        "menubar.selectionForeground":"#bdc7f0",
+        "input.foreground": "#959cbd",
+        "input.placeholderForeground": "#959cbd",
+        "activityBar.foreground": "#bdc7f0",
+        "activityBar.inactiveForeground": "#787c99",
+        "gitDecoration.ignoredResourceForeground": "#696d87",
+    },
+},
+
+  "latex-workshop.latex.autoBuild.run": "never",
+  "latex-workshop.view.pdf.zoom": "page-width",
+  "workbench.editorAssociations": {
+      "*.pdf": "latex-workshop-pdf-hook"
+},
+"workbench.colorTheme": "Tokyo Night",
+"[cpp]": {
+  "editor.semanticHighlighting.enabled": false,
+  "editor.defaultFormatter": "xaver.clang-format"
+},
+"[cuda-cpp]": {
+  "editor.wordBasedSuggestions": "off",
+  "editor.suggest.insertMode": "replace",
+  "editor.semanticHighlighting.enabled": false
+},
+"[python]":{
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.formatOnType": true,
+  "editor.wordBasedSuggestions": "off",
+  "editor.semanticHighlighting.enabled": false
+},
+"cmake.showOptionsMovedNotification": false,
+"remote.autoForwardPortsSource": "hybrid",
+"remote.SSH.remotePlatform": {
+  "login.hpc.caltech.edu": "linux"
+}
+}
